@@ -192,7 +192,7 @@ const App = () => {
 					<Alert />
 					{/* Have to style Alert */}
 					<Routes>
-						<Route exact path="/" element={<Landing />}></Route>
+						<Route exact path="/" element={<Login />}></Route>
 						<Route exact path="/login" element={<Login />} />
 						<Route exact path="/register" element={<Register />} />
 						<Route exact path="/gsettings" element={<Gsettings />} />
