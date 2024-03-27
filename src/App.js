@@ -78,7 +78,7 @@ const App = () => {
 		setPeerSockets((prevPeerSockets) => [...prevPeerSockets, peerSocketId]);
 	  };
 
-	const server = "http://localhost:8000";
+	const server = "https://cocreate-softwareengineering.github.io:8000";
 
 	const io = require("socket.io-client");
 
