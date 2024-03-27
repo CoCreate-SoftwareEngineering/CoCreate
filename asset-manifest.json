@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/CoCreate/static/css/main.d5a5de2b.css",
+    "main.js": "/CoCreate/static/js/main.1523417e.js",
+    "static/media/person-icon.jpg": "/CoCreate/static/media/person-icon.a23c0df3e4dfdabc7be6.jpg",
+    "static/media/Co_Create_Logo_blue.png": "/CoCreate/static/media/Co_Create_Logo_blue.98dcbe45cbc1fa0da9b8.png",
+    "static/media/Darwizzy.jpg": "/CoCreate/static/media/Darwizzy.b6da82d64eec697177c4.jpg",
+    "static/media/ProfileImg1.jpg": "/CoCreate/static/media/ProfileImg1.c8bda4cc0cfdb221b57c.jpg",
+    "static/media/Msg_Icon.png": "/CoCreate/static/media/Msg_Icon.177cb3220be0818ba294.png",
+    "static/media/refresh.ico": "/CoCreate/static/media/refresh.b0d5c252acf4c06a05c5.ico",
+    "index.html": "/CoCreate/index.html",
+    "main.d5a5de2b.css.map": "/CoCreate/static/css/main.d5a5de2b.css.map",
+    "main.1523417e.js.map": "/CoCreate/static/js/main.1523417e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5a5de2b.css",
+    "static/js/main.1523417e.js"
+  ]
+}
