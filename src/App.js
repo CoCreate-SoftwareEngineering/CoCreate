@@ -78,7 +78,7 @@ const App = () => {
 		setPeerSockets((prevPeerSockets) => [...prevPeerSockets, peerSocketId]);
 	  };
 
-	const server = "https://cocreate-softwareengineering.github.io:8000";
+	const server = "https://cocreate-backend.adaptable.app";
 
 	const io = require("socket.io-client");
 
