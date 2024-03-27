@@ -1,0 +1,88 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.14",
+    "@mui/x-date-pickers": "^7.0.0",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.26.1",
+    "date-fns": "^3.6.0",
+    "dayjs": "^1.11.10",
+    "firebase": "^10.9.0",
+    "https-browserify": "~0.0.0",
+    "invariant": "^2.2.4",
+    "moment": "^2.29.1",
+    "perfect-freehand": "^1.2.0",
+    "randombytes": "^2.1.0",
+    "react": "^18.0.0",
+    "react-bootstrap": "^2.10.2",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^18.0.0",
+    "react-moment": "^1.1.1",
+    "react-native-crypto": "^2.1.0",
+    "react-native-level-fs": "^3.0.0",
+    "react-native-randombytes": "^3.0.0",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "5.0.0",
+    "react-toastify": "^10.0.4",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1",
+    "roughjs": "^4.6.6",
+    "simple-peer": "^9.11.1",
+    "socket.io-client": "^4.7.4",
+    "styled-components": "^6.1.8",
+    "util-deprecate": "^1.0.2",
+    "uuid": "^8.3.2",
+    "uuidv4": "^5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postinstall": "npx rn-nodeify --install crypto,fs,https --hack"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "browser": {
+    "fs": "react-native-level-fs",
+    "path": false,
+    "os": false,
+    "crypto": "react-native-crypto",
+    "https": "https-browserify"
+  },
+  "node": {
+    "fs": "empty"
+  },
+  "react-native": {
+    "fs": "react-native-level-fs",
+    "path": false,
+    "os": false,
+    "crypto": "react-native-crypto",
+    "https": "https-browserify"
+  }
+}

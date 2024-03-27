@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+
+.noti-box {
+	background-color: rgb(226, 133, 110);
+	color: white;
+	font-family: "Inter";
+	padding: 2px;
+	font-size: 15px;
+	margin-bottom: 20px;
+	margin-left:0.4% !important;
+	font-weight: 700;
+	width: 22px !important;
+	height: 21px !important;	
+	text-align: center;
+	vertical-align: middle;
+	align-content: center;
+}

@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+
+html, body {
+    font-family:'Lato', SanSerif;
+    margin: 0;
+    padding: 0;
+}
+
+Link{
+    float:right;
+}
+h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+* {
+    font-family: 'Lato', SansSerif;
+}
+
+.logo-left-container {
+    background-color: rgb(124, 192, 203);
+    width:50%;
+    height: 150vh;
+    text-align: center;
+    float:left;
+}
+
+p{
+    color: #E2856E;
+    font-family:'Inter', sans-serif;
+    font-size: 12.5pt;
+}
+
+
+
+.right-container{
+    float:left;
+    padding:125px;
+    margin-top:100px;
+    margin-left:100px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    border-radius: 15px;
+    background-color :#2C4251;
+    font-size: 15pt;
+    color:#7CC0CB;
+    font-family: 'Lato';
+}
+
+.label {
+    font-family: 'Lato', sans-serif;
+    color:white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 12px 25px;
+}
+
+
+
+/*input{
+    font-family: 'Lato',sans-serif;
+    color:gray;
+    background-color: white;
+    font-size: 35pt;
+    border-radius: 15px;
+    margin-top: 25px ;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}*/
+
+.login-button{
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+    font-family: 'Lato',sans-serif;
+    background-color: #7CC0CB;
+    color: white;
+    font-size:12.5pt;
+}
+
+.logo {
+    height: 33%;
+    display: inline-block;
+    margin-top: 40%;
+}
+
+
+
+.unique-input-style {
+    /* Specific styles for inputs with .unique-input-style */
+    box-sizing: border-box;
+    font-size: 14px; 
+    padding: 8px; 
+    border-radius: 25px; 
+    background-color: #f8f9fa; 
+    color: #495057; 
+    margin: 5px 0; 
+    width: 100%; 
+}
+
+
+/* Styling for the label */
+#uniqueLabel, .unique-label-style {    
+    color: #7CC0CB; 
+    font-size: 14pt; 
+}
+
+#uniqueLabel:hover, .unique-label-style:hover {
+    background-color: transparent;
+    cursor: default;
+}
+
+
+.user{
+    font-size: 15pt;
+    border-radius: 15px;
+    font-style: italic;
+    font-family: 'Lato',sans-serif;
+    margin-top: 25px ;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;    
+}
+
+.pass{
+    font-size: 15pt;
+    border-radius: 15px;
+    font-style: italic;
+    font-family: 'Lato',sans-serif;
+    color:gray;
+    margin-top: 25px ;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+
+.link{
+    font-family:'Inter', sans-serif;
+    font-weight: bold;
+    color: #E2856E;
+    font-size: 12.5pt;
+}
+
+.text-before-link{
+    font-size:12.5pt;
+    color: #E2856E !important; 
+}
